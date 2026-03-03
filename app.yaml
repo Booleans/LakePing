@@ -1,0 +1,5 @@
+command: ["streamlit", "run", "app.py"]
+
+env:
+  - name: CLUSTER_ID
+    value: "0123-456789-abcdefgh"  # Replace with your actual cluster ID
